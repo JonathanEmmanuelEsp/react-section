@@ -1,0 +1,110 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*font*/
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+.navestilo{
+  
+  background-color:#0D191E;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  
+  
+  display:flex;
+}
+
+.funfactsh1{
+  margin-left: 30px;
+  
+  
+}
+.funfactslist{
+  margin-left: 30px;
+  list-style-type: disc;
+  color: #2cc3f1;
+  
+}
+
+.reacth1{
+  margin-left: 90px;
+  margin-top: 45px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: #2cc3f1;
+
+}
+.ReactIcono{
+  width: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+  position: fixed;
+}
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
